@@ -1,0 +1,55 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #333;
+}
+
+nav.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    background-color: #000;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 0;
+}
+
+.bottom-image {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+main p {
+    font-size: 18px;
+}
